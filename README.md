@@ -44,3 +44,4 @@ station DEVICE connect SSID
 ```bash
 quit
 ```
+# More setup information coming soon..
