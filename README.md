@@ -22,7 +22,8 @@ sudo systemctl enable NetworkManager.service
 sudo systemctl start NetworkManager.service 
 ```
 <img width="2008" height="391" alt="Névtelen" src="https://github.com/user-attachments/assets/bf557da0-b245-426b-b4a6-405eb83f647f" />
-
+sudo systemctl enable NetworkManager.service 
+sudo systemctl start NetworkManager.service 
 ## Set WI-FI with iwctl
 - Where it says "DEVICE", write the name of your device. Where it says "SSID", write your WI-FI SSID.
   
@@ -43,5 +44,10 @@ station DEVICE connect SSID
 ```
 ```bash
 quit
+```
+##disable
+```bash
+sudo systemctl disable NetworkManager.service 
+sudo systemctl stop NetworkManager.service 
 ```
 # More setup information coming soon..
