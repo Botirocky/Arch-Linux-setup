@@ -45,7 +45,7 @@ station DEVICE connect SSID
 ```bash
 quit
 ```
-## disable
+## Disable
 ```bash
 sudo systemctl disable NetworkManager.service 
 sudo systemctl stop NetworkManager.service 
