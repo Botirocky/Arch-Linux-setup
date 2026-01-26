@@ -3,7 +3,7 @@ All documentation was [here](https://archlinux.org/)
 
 ## Basic app's
 ```bash
-sudo pacman -S firefox nano discord git vim nvim nmap tor rpi-imager qflipper fish ghostty kvantum john htop wpscan metazploit macchina fastfetch uwufetch lsd
+sudo pacman -S firefox nano discord git vim nvim nmap tor rpi-imager qflipper fish ghostty kvantum john htop wpscan btop macchina fastfetch uwufetch lsd virtualbox reflector network-manager cava cmatrix cowsay dua-cli felix-rs kitty wine aafire 
 ```
 - I think these app's are good for beginner's.
 
@@ -50,4 +50,24 @@ quit
 sudo systemctl disable NetworkManager.service 
 sudo systemctl stop NetworkManager.service 
 ```
+## Bash setup
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+```
+## Setup for konsole
+```bash
+sudo nano ~/. bashrc
+```
+- Write Fastfetch or Pokego after
+- Use:
+```bash
+pokego --random 1 --no-title
+```
+## Setup for pacman
+```bash
+sudo nano /etc/pacman.conf
+```
+- #Color (take down #)
+- line and ILoveCandy
+
 # More setup information coming soon..
