@@ -97,4 +97,8 @@ GRUB_THEME=/boot/grub/themes/minegrub/theme.txt
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
+##
+``bash
+
+```
 # More setup information coming soon..
