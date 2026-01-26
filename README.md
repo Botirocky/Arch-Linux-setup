@@ -11,6 +11,12 @@ sudo pacman -S firefox nano discord git vim nvim nmap tor rpi-imager qflipper fi
 ```bash
 git clone https://aur.archlinux.org/yay.git
 ```
+```bash
+cd yay
+```
+```bash
+makepkg -si
+```
 - YAY is an [AUR](https://aur.archlinux.org/) downloader.
 
 ## Fun app's 
