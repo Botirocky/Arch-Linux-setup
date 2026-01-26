@@ -3,7 +3,7 @@ All documentation was [here](https://archlinux.org/)
 
 ## Basic app's
 ```bash
-sudo pacman -S firefox nano discord git vim nvim nmap tor rpi-imager qflipper fish ghostty kvantum john htop wpscan btop macchina fastfetch uwufetch lsd virtualbox reflector network-manager cava cmatrix cowsay dua-cli felix-rs kitty wine aafire satty
+sudo pacman -S firefox nano discord git vim nvim nmap tor rpi-imager qflipper fish ghostty kvantum john htop wpscan btop macchina fastfetch uwufetch lsd virtualbox reflector networkmanager cava cmatrix cowsay dua-cli felix-rs kitty wine aalib satty
 ```
 - I think these app's are good for beginner's.
 
