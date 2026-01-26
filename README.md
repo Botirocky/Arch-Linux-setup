@@ -98,7 +98,7 @@ GRUB_THEME=/boot/grub/themes/minegrub/theme.txt
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 ##
-``bash
-
+```bash 
+git clone --depth 1 https://github.com/m3tozz/FastCat.git && cd FastCat && bash ./fastcat.sh --shell
 ```
 # More setup information coming soon..
