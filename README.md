@@ -75,5 +75,26 @@ sudo nano /etc/pacman.conf
 ```
 - #Color (take down #)
 - line and ILoveCandy
+## Minegrub setup
+minegrub-theme: https://github.com/Lxtharia/minegrub-...
 
+```bash
+git clone https://github.com/Lxtharia/minegrub-theme
+```
+```bash
+cd ./minegrub-theme
+```
+```bash
+sudo cp -ruv ./minegrub /boot/grub/themes/
+```
+```bash
+sudo nano /etc/default/grub
+```
+
+- Edit the GRUB_THEME= line then save:
+GRUB_THEME=/boot/grub/themes/minegrub/theme.txt
+
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
 # More setup information coming soon..
