@@ -101,4 +101,36 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```bash 
 git clone --depth 1 https://github.com/m3tozz/FastCat.git && cd FastCat && bash ./fastcat.sh --shell
 ```
+## Snap install 
+```bash 
+git clone https://aur.archlinux.org/snapd.git
+```
+```bash 
+cd snapd
+```
+```bash 
+makepkg -si
+```
+```bash 
+sudo systemctl enable --now snapd.socket
+```
+```bash
+sudo systemctl enable --now snapd.apparmor.service
+```
+```bash
+$ hello-world.evil 
+Hello Evil World!
+This example demonstrates the app confinement
+You should see a permission denied error next
+/snap/hello-world/29/bin/evil: 9: /snap/hello-world/29/bin/evil: cannot create /var/tmp/myevil.txt: Permission denied
+```
+```bash
+sudo ln -s /var/lib/snapd/snap /snap
+```
+```bash
+$ sudo snap install hello-world
+hello-world 6.3 from Canonical✓ installed
+$ hello-world
+Hello World!
+```
 # More setup information coming soon..
