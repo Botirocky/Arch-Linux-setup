@@ -133,4 +133,9 @@ hello-world 6.3 from Canonical✓ installed
 $ hello-world
 Hello World!
 ```
+## If you can't download VS Code, use this:
+```bash
+sudo snap install code --classic
+```
+
 # More setup information coming soon..
