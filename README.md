@@ -4,7 +4,7 @@
 - [EndeavourOs](https://endeavouros.com/)
 
 # ArchLinux setup
-All documentation was [here](https://archlinux.org/)
+All documentation was [here](https://archlinux.org/)!
 
 ## Basic app's
 ```bash
