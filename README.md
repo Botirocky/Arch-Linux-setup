@@ -102,6 +102,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 git clone --depth 1 https://github.com/m3tozz/FastCat.git && cd FastCat && bash ./fastcat.sh --shell
 ```
 ## Snap install 
+- [Snap](https://snapcraft.io/) is an installer that allows you to install unavailable packages.
 ```bash 
 git clone https://aur.archlinux.org/snapd.git
 ```
