@@ -143,5 +143,8 @@ Hello World!
 ```bash
 sudo snap install code --classic
 ```
-
+## How to install pamac with YAY:
+```bash
+sudo yay -S pamac-aur
+```
 # More setup information coming soon..
