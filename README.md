@@ -103,6 +103,7 @@ GRUB_THEME=/boot/grub/themes/minegrub/theme.txt
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 ## Fastcat install
+- You can find the Themes [here](https://m3tozz.github.io/FastCat-Themes/)
 ```bash 
 git clone --depth 1 https://github.com/m3tozz/FastCat.git && cd FastCat && bash ./fastcat.sh --shell
 ```
