@@ -81,7 +81,7 @@ sudo nano /etc/pacman.conf
 - #Color (take down #)
 - line and ILoveCandy
 ## Minegrub setup
-minegrub-theme: https://github.com/Lxtharia/minegrub-...
+minegrub-themes are [there](https://github.com/Lxtharia/minegrub-theme)!
 
 ```bash
 git clone https://github.com/Lxtharia/minegrub-theme
