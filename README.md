@@ -152,5 +152,6 @@ sudo yay -S pamac-aur
 ```bash
 yay -S mullvad-vpn-bin
 ```
+- Mullvad VPN is one of, if not the, most private VPNs on the market.
 
 # More setup information coming soon..
