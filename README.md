@@ -148,4 +148,9 @@ sudo snap install code --classic
 ```bash
 sudo yay -S pamac-aur
 ```
+## How to install Mullvad VPN:
+```bash
+yay -S mullvad-vpn-bin
+```
+
 # More setup information coming soon..
