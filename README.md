@@ -1,18 +1,18 @@
-# If you want to use Arch Linux, I recommend the following systems:
-- [Arch Linux](https://archlinux.org/download/) (base)
-- [CachyOs](https://cachyos.org/download/)
-- [EndeavourOs](https://endeavouros.com/)
+# 🐧 If you want to use Arch Linux, I recommend the following systems:
+- 🌐 [Arch Linux](https://archlinux.org/download/) (base)
+- ⚡ [CachyOs](https://cachyos.org/download/)
+- 🚀 [EndeavourOs](https://endeavouros.com/)
 
-# ArchLinux setup
-All documentation was [here](https://archlinux.org/)!
+# ⚙️ ArchLinux setup
+All documentation 📚 was [here](https://archlinux.org/)!
 
-## Basic app's
+## 🧰 Basic app's
 ```bash
 sudo pacman -S firefox nano discord git vim nvim nmap tor rpi-imager qflipper fish ghostty kvantum john htop wpscan btop macchina fastfetch uwufetch lsd virtualbox reflector networkmanager cava cmatrix cowsay dua-cli felix-rs kitty wine aalib satty wifite 
 ```
-- I think these app's are good for beginner's.
+- 💡 I think these app's are good for beginner's.
 
-## YAY installation
+## 📦 YAY installation
 ```bash
 git clone https://aur.archlinux.org/yay.git
 ```
@@ -22,12 +22,12 @@ cd yay
 ```bash
 makepkg -si
 ```
-- YAY is an [AUR](https://aur.archlinux.org/) downloader.
+- 📥 YAY is an [AUR](https://aur.archlinux.org/) downloader.
 
-## Fun app's 
+## 🎉 Fun app's 
 ![Névtelen1](https://github.com/user-attachments/assets/d9176caf-9c56-44bc-8609-7698162833af)
 
-## Enble Network Manager
+## 🌐 Enble Network Manager
 ```bash
 sudo systemctl enable NetworkManager.service 
 sudo systemctl start NetworkManager.service 
@@ -35,7 +35,7 @@ sudo systemctl start NetworkManager.service
 <img width="2008" height="391" alt="Névtelen" src="https://github.com/user-attachments/assets/bf557da0-b245-426b-b4a6-405eb83f647f" />
 sudo systemctl enable NetworkManager.service 
 sudo systemctl start NetworkManager.service 
-## Set WI-FI with iwctl
+## 📶 Set WI-FI with iwctl
 - Where it says "DEVICE", write the name of your device. Where it says "SSID", write your WI-FI SSID.
   
 ```bash
@@ -56,32 +56,32 @@ station DEVICE connect SSID
 ```bash
 quit
 ```
-## Disable
+## ❌ Disable
 ```bash
 sudo systemctl disable NetworkManager.service 
 sudo systemctl stop NetworkManager.service 
 ```
-## Bash setup
+## 🐚 Bash setup
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
-## Setup for konsole
+## 🖥️ Setup for konsole
 ```bash
 sudo nano ~/. bashrc
 ```
-- Write Fastfetch or Pokego after
-- Use:
+- ✍️ Write Fastfetch or Pokego after
+- ▶️ Use:
 ```bash
 pokego --random 1 --no-title
 ```
-## Setup for pacman
+## ⚙️ Setup for pacman
 ```bash
 sudo nano /etc/pacman.conf
 ```
-- #Color (take down #)
-- line and ILoveCandy
-## Minegrub setup
-minegrub-themes are [there](https://github.com/Lxtharia/minegrub-theme)!
+- 🎨 #Color (take down #)
+- 🍬 line and ILoveCandy
+## 🎮 Minegrub setup
+minegrub-themes are 🎨 [there](https://github.com/Lxtharia/minegrub-theme)!
 
 ```bash
 git clone https://github.com/Lxtharia/minegrub-theme
@@ -96,19 +96,19 @@ sudo cp -ruv ./minegrub /boot/grub/themes/
 sudo nano /etc/default/grub
 ```
 
-- Edit the GRUB_THEME= line then save:
+- ✏️ Edit the GRUB_THEME= line then save:
 GRUB_THEME=/boot/grub/themes/minegrub/theme.txt
 
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
-## Fastcat install
-- You can find the Themes [here](https://m3tozz.github.io/FastCat-Themes/)
+## 🐱 Fastcat install
+- You can find the Themes 🎨 [here](https://m3tozz.github.io/FastCat-Themes/)
 ```bash 
 git clone --depth 1 https://github.com/m3tozz/FastCat.git && cd FastCat && bash ./fastcat.sh --shell
 ```
-## Snap install 
-- [Snap](https://snapcraft.io/) is an installer that allows you to install unavailable packages.
+## 📦 Snap install 
+- 🧩 [Snap](https://snapcraft.io/) is an installer that allows you to install unavailable packages.
 ```bash 
 git clone https://aur.archlinux.org/snapd.git
 ```
@@ -140,18 +140,18 @@ hello-world 6.3 from Canonical✓ installed
 $ hello-world
 Hello World!
 ```
-## If you can't download VS Code, use this:
+## 🧑‍💻 If you can't download VS Code, use this:
 ```bash
 sudo snap install code --classic
 ```
-## How to install pamac with YAY:
+## 📦 How to install pamac with YAY:
 ```bash
 sudo yay -S pamac-aur
 ```
-## How to install Mullvad VPN:
+## 🔒 How to install Mullvad VPN:
 ```bash
 yay -S mullvad-vpn-bin
 ```
-- Mullvad VPN is one of, if not the, most private VPNs on the market.
+- 🛡️ Mullvad VPN is one of, if not the, most private VPNs on the market.
 
-# More setup information coming soon..
+# ⏳ More setup information coming soon..
